@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <!-- Required for Maven to process the POM -->
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Project details -->
+    <groupId>org.example</groupId>
+    <artifactId>ddcels-monitoring</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <!-- Dependencies section -->
+    <dependencies>
+        <!-- Apache POI for Excel functionality -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.3</version> <!-- Latest stable version of POI -->
+        </dependency>
+
+        <!-- Log4j2 core library -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>2.20.0</version> <!-- Log4j2 Core library -->
+        </dependency>
+
+        <!-- Log4j2 API library -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.20.0</version> <!-- Log4j2 API library -->
+        </dependency>
+    </dependencies>
+
+    <!-- Compiler settings -->
+    <properties>
+        <maven.compiler.source>11</maven.compiler.source>
+        <maven.compiler.target>11</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+</project>
